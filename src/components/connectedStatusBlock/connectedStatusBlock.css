@@ -1,0 +1,110 @@
+.connected-status-block {
+	background-color: #3E3E48;
+}
+
+.connected-status__box {
+	height: 323px;
+	text-align: center;
+	padding: 0 0 20px;
+
+	font-family: Nunito, sans-serif;
+}
+
+.connected-status__title {
+	color: #FFA903;
+
+	font-family: Montserrat, sans-serif;
+	font-size: 24px;
+}
+
+.connected-status-box__ip-address-text {
+	color: #A2A2A2;
+	margin-top: 5px;
+
+	font-size: 16px;
+}
+
+.connected-status-box__ip-address {
+	color: #FFFFFF;
+	margin-top: 5px;
+
+	font-size: 32px;
+}
+
+.connected-status-box__location {
+	color: #FFFFFF;
+	margin-top: 5px;
+
+	font-size: 12px;
+}
+
+.connected-status-box__location-correct {
+	color: #A2A2A2;
+	margin-top: 20px;
+
+	font-size: 24px;
+}
+
+.connected-status-block__box-btn-yes-no {
+	width: 136px;
+	display: flex;
+	justify-content: space-between;
+	margin: 20px auto 0;
+}
+
+.connected-status-block__box-btn-online {
+	width: 328px;
+	display: flex;
+	justify-content: space-between;
+	margin: 40px auto 0;
+}
+
+.coro {
+	display: none;
+}
+
+.supportSection {
+	display: none;
+}
+
+	@media (min-width: 1440px) {
+		.connected-status-block {
+			width: 1440px;
+			padding: 0 190px;
+		}
+
+		.connected-status__box {
+			height: 440px;
+			padding: 30px 0;
+		}
+
+		h3 {
+			font-size: 40px;
+		}
+
+		.connected-status-block__box-btn-online {
+			width: 500px;
+		}
+
+		.connected-status-box__ip-address-text {
+			font-size: 24px;
+		}
+
+		.connected-status-box__ip-address {
+			font-size: 40px;
+		}
+
+		.connected-status-box__location {
+			font-size: 16px;
+		}
+
+		.coro {
+			display: block;
+			margin-left: -75px;
+		}
+
+		.supportSection {
+			display: block;
+			width: 1056px;
+		}
+	}
